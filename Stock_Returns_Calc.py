@@ -3,7 +3,7 @@ import pandas as pd
 # Sample data: Dates and corresponding stock prices
 data = {
     'Date': pd.date_range(start='2024-01-01', periods=5, freq='D'),
-    'Price': [150, 155, 158, 200, 300]
+    'Price': [400, 500, 600, 700, 800]
 }
 
 # Create a DataFrame
